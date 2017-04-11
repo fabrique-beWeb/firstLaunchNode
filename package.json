@@ -1,0 +1,22 @@
+{
+  "name": "firstLaunchNode",
+  "version": "0.1.1",
+  "description": "initiation to node.js",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "node serveur.js"
+  },
+  "dependencies":{
+	"express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabrique-beWeb/firstLaunchNode"
+  },
+  "author": "4nu5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabrique-beWeb/firstLaunchNode/issues"
+  },
+  "homepage": "https://github.com/fabrique-beWeb/firstLaunchNode"
+}
