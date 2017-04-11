@@ -5,8 +5,7 @@ var appli = express();
 appli.get(
 	'/',
 	function(request,response){
-		response.send('salut a toi l\'arménien');
-		
+		response.sendFile( __dirname + '/views/index.html');		
 	}
 );
 appli.get(
